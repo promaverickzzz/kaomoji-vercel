@@ -23,12 +23,18 @@
             color: #ff69b4;
         }
         .content {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .kaomoji-section {
+            margin-bottom: 40px;
+        }
+        .kaomoji-section h2 {
+            color: #ff69b4;
         }
         .kaomoji {
             display: flex;
@@ -41,13 +47,10 @@
             background-color: #ffebcd;
             border-radius: 8px;
             cursor: pointer;
-            font-size: 24px;
+            font-size: 20px;
         }
         .kaomoji div:hover {
             background-color: #ffe4e1;
-        }
-        .feature, .faq, .testimonial {
-            margin-top: 40px;
         }
         footer {
             text-align: center;
@@ -71,59 +74,195 @@
 </header>
 
 <div class="content">
-    <section>
-        <h2>かわいい顔文字をコピーしてね！</h2>
+    <!-- 笑顔文字 -->
+    <section class="kaomoji-section">
+        <h2>笑顔文字</h2>
         <div class="kaomoji">
             <div onclick="copyText(this)">（＾ω＾）</div>
             <div onclick="copyText(this)">(≧◡≦)</div>
-            <div onclick="copyText(this)">(*^‿^*)</div>
-            <div onclick="copyText(this)">( ´ ▽ ` )ﾉ</div>
-            <div onclick="copyText(this)">(✿◠‿◠)</div>
-            <div onclick="copyText(this)">(◕‿◕✿)</div>
-            <div onclick="copyText(this)">(•‿•)</div>
-            <div onclick="copyText(this)">（＾∇＾）</div>
-            <div onclick="copyText(this)">(๑˃̵ᴗ˂̵)و</div>
-            <div onclick="copyText(this)">(๑╹◡╹)ﾉ"</div>
-            <div onclick="copyText(this)">٩(˘◡˘)۶</div>
+            <div onclick="copyText(this)">(＾▽＾)</div>
+            <div onclick="copyText(this)">ヾ(＾∇＾)</div>
             <div onclick="copyText(this)">(*≧∀≦*)</div>
-            <div onclick="copyText(this)">(¬‿¬)</div>
-            <div onclick="copyText(this)">(๑•̀ㅂ•́)و✧</div>
-            <div onclick="copyText(this)">ヾ(＠＾▽＾＠)ﾉ</div>
-            <div onclick="copyText(this)">(￣▽￣)ノ</div>
-            <div onclick="copyText(this)">(╯°□°）╯︵ ┻━┻</div>
-            <div onclick="copyText(this)">(ಥ﹏ಥ)</div>
-            <div onclick="copyText(this)">(T＿T)</div>
-            <div onclick="copyText(this)">(๑°o°๑)</div>
-            <div onclick="copyText(this)">ฅ^•ﻌ•^ฅ</div>
-            <div onclick="copyText(this)">(=^･ω･^=)</div>
-            <div onclick="copyText(this)">( •_•)ノ</div>
-            <div onclick="copyText(this)">( ͡° ͜ʖ ͡°)</div>
-            <div onclick="copyText(this)">ヽ(ﾟｰﾟ*ヽ)</div>
+            <div onclick="copyText(this)">（＾∇＾）</div>
+            <div onclick="copyText(this)">٩(˘◡˘)۶</div>
+            <div onclick="copyText(this)">(*^‿^*)</div>
+            <div onclick="copyText(this)">(✿◠‿◠)</div>
+            <div onclick="copyText(this)">(๑˃̵ᴗ˂̵)</div>
         </div>
     </section>
 
-    <section class="feature">
-        <h2>特徴</h2>
-        <ul>
-            <li>ワンクリックで簡単コピー</li>
-            <li>数百種類以上のかわいい顔文字が使える</li>
-            <li>全てのデバイスに対応</li>
-        </ul>
+    <!-- 悲しい顔文字 -->
+    <section class="kaomoji-section">
+        <h2>悲しい顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">(´；ω；｀)</div>
+            <div onclick="copyText(this)">(ಥ﹏ಥ)</div>
+            <div onclick="copyText(this)">(T＿T)</div>
+            <div onclick="copyText(this)">(´･ω･`)</div>
+            <div onclick="copyText(this)">(っ- ‸ – ς)</div>
+            <div onclick="copyText(this)">(´Д⊂ヽ</div>
+            <div onclick="copyText(this)">（；へ：）</div>
+            <div onclick="copyText(this)">(｡•́︿•̀｡)</div>
+            <div onclick="copyText(this)">(ಥ_ಥ)</div>
+            <div onclick="copyText(this)">o(╥﹏╥)o</div>
+        </div>
     </section>
 
-    <section class="faq">
-        <h2>よくある質問（FAQ）</h2>
-        <h3>顔文字はどこで使えますか？</h3>
-        <p>顔文字はSNS、メール、チャットなど、様々な場所で使えます。</p>
-        <h3>顔文字の追加は可能ですか？</h3>
-        <p>はい、新しい顔文字を随時追加しています。ぜひリクエストしてください。</p>
+    <!-- 驚いた顔文字 -->
+    <section class="kaomoji-section">
+        <h2>驚いた顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">(°ロ°)</div>
+            <div onclick="copyText(this)">(๑•̀ㅂ•́)و✧</div>
+            <div onclick="copyText(this)">(°o°)</div>
+            <div onclick="copyText(this)">Σ(°ロ°)</div>
+            <div onclick="copyText(this)">Σ(ಠ_ಠ)</div>
+            <div onclick="copyText(this)">ヽ(ﾟ〇ﾟ)ﾉ</div>
+            <div onclick="copyText(this)">Σ(ﾟДﾟ)</div>
+            <div onclick="copyText(this)">ヽ(°◇°)ノ</div>
+            <div onclick="copyText(this)">Σ(°△°|||)</div>
+            <div onclick="copyText(this)">Σ(‘◉⌓◉’)</div>
+        </div>
     </section>
 
-    <section class="testimonial">
-        <h2>お客様の声</h2>
-        <p>「使いやすい！ワンクリックでコピーできて便利です！」 - ユーザーA</p>
-        <p>「かわいい顔文字がたくさんで、選ぶのが楽しい！」 - ユーザーB</p>
+    <!-- 可愛い顔文字 -->
+    <section class="kaomoji-section">
+        <h2>可愛い顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">(｡♥‿♥｡)</div>
+            <div onclick="copyText(this)">(◕‿◕✿)</div>
+            <div onclick="copyText(this)">(✿◕‿◕)</div>
+            <div onclick="copyText(this)">(｡•̀ᴗ-)✧</div>
+            <div onclick="copyText(this)">(≧◡≦)</div>
+            <div onclick="copyText(this)">( •_•)>⌐■-■</div>
+            <div onclick="copyText(this)">⌒(o＾▽＾o)ノ</div>
+            <div onclick="copyText(this)">(* >ω<)</div>
+            <div onclick="copyText(this)">(*￣▽￣)b</div>
+            <div onclick="copyText(this)">(*´∀｀)</div>
+        </div>
     </section>
+
+    <!-- 怒った顔文字 -->
+    <section class="kaomoji-section">
+        <h2>怒った顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">ヽ(ಠ_ಠ)ノ</div>
+            <div onclick="copyText(this)">ヽ(｀⌒´)ﾉ</div>
+            <div onclick="copyText(this)">(¬_¬)</div>
+            <div onclick="copyText(this)">(凸ಠ益ಠ)凸</div>
+            <div onclick="copyText(this)">ヽ(≧Д≦)ノ</div>
+            <div onclick="copyText(this)">(＃`Д´)</div>
+            <div onclick="copyText(this)">(ง'̀-'́)ง</div>
+            <div onclick="copyText(this)">ლ(ಠ益ಠ)ლ</div>
+            <div onclick="copyText(this)">(`ε´ )</div>
+            <div onclick="copyText(this)">ᕙ(⇀‸↼‶)ᕗ</div>
+        </div>
+    </section>
+
+    <!-- 恋する顔文字 -->
+    <section class="kaomoji-section">
+        <h2>恋する顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">(♡´艸`)</div>
+            <div onclick="copyText(this)">（*＾3＾)/~☆</div>
+            <div onclick="copyText(this)">(*♡∀♡)</div>
+            <div onclick="copyText(this)">(*´∇｀*)</div>
+            <div onclick="copyText(this)">(♥ω♥*)</div>
+            <div onclick="copyText(this)">(´ε｀ )♡</div>
+            <div onclick="copyText(this)">(๑♡⌓♡๑)</div>
+            <div onclick="copyText(this)">(*¯ ³¯*)♡</div>
+            <div onclick="copyText(this)">(*＾з＾)</div>
+            <div onclick="copyText(this)">(*・∀・*)</div>
+        </div>
+    </section>
+
+    <!-- アニメ顔文字 -->
+    <section class="kaomoji-section">
+        <h2>アニメ顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">(¬‿¬)</div>
+            <div onclick="copyText(this)
+            <div onclick="copyText(this)">（ノ◕ヮ◕）ノ*</div>
+            <div onclick="copyText(this)">(¬‿¬)</div>
+            <div onclick="copyText(this)">٩(◕‿◕｡)۶</div>
+            <div onclick="copyText(this)">＼(º □ º l|l)/</div>
+            <div onclick="copyText(this)">(*≧ω≦)</div>
+            <div onclick="copyText(this)">ヾ(＠^∇^＠)ノ</div>
+            <div onclick="copyText(this)">ヽ(；▽；)ノ</div>
+            <div onclick="copyText(this)">(¬_¬ )</div>
+            <div onclick="copyText(this)">(ﾉ･o･)ﾉ</div>
+            <div onclick="copyText(this)">((o(´∀｀)o))</div>
+        </div>
+    </section>
+
+    <!-- 動物顔文字 -->
+    <section class="kaomoji-section">
+        <h2>動物顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">ฅ^•ﻌ•^ฅ</div>
+            <div onclick="copyText(this)">(=^･ω･^=)</div>
+            <div onclick="copyText(this)">(U・ᴥ・U)</div>
+            <div onclick="copyText(this)">(=；ェ；=)</div>
+            <div onclick="copyText(this)">ʕ•ᴥ•ʔ</div>
+            <div onclick="copyText(this)">ʕっ•ᴥ•ʔっ</div>
+            <div onclick="copyText(this)">ʕノ•ᴥ•ʔノ</div>
+            <div onclick="copyText(this)">(･ω･ )</div>
+            <div onclick="copyText(this)">=＾● ⋏ ●＾=</div>
+            <div onclick="copyText(this)">(*ΦωΦ*)</div>
+        </div>
+    </section>
+
+    <!-- 勇ましい顔文字 -->
+    <section class="kaomoji-section">
+        <h2>勇ましい顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">(ง'̀-'́)ง</div>
+            <div onclick="copyText(this)">ᕦ(ò_óˇ)ᕤ</div>
+            <div onclick="copyText(this)">ᕙ(⇀‸↼‶)ᕗ</div>
+            <div onclick="copyText(this)">ᕦ(ò_óˇ)ᕤ</div>
+            <div onclick="copyText(this)">o(｀ω´*)o</div>
+            <div onclick="copyText(this)">(•̀ᴗ•́)و ̑̑</div>
+            <div onclick="copyText(this)">٩(•̤̀ᵕ•̤́๑)</div>
+            <div onclick="copyText(this)">(ง •̀_•́)ง</div>
+            <div onclick="copyText(this)">٩(๑•̀ω•́๑)۶</div>
+            <div onclick="copyText(this)">٩( 'ω' )و</div>
+        </div>
+    </section>
+
+    <!-- 寝顔文字 -->
+    <section class="kaomoji-section">
+        <h2>寝顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">(-_-)゜zzz</div>
+            <div onclick="copyText(this)">(∪｡∪)｡｡｡zzz</div>
+            <div onclick="copyText(this)">ヾ( ￣O￣)ツ</div>
+            <div onclick="copyText(this)">＼( ~0~)／</div>
+            <div onclick="copyText(this)">（´～｀）</div>
+            <div onclick="copyText(this)">(－_－) zzZ</div>
+            <div onclick="copyText(this)">(´ぅω・｀)</div>
+            <div onclick="copyText(this)」ヾ(。￣□￣)ツ</div>
+            <div onclick="copyText(this)」(xωx)</div>
+            <div onclick="copyText(this)">(*~▼~)</div>
+        </div>
+    </section>
+
+    <!-- 食べ物顔文字 -->
+    <section class="kaomoji-section">
+        <h2>食べ物顔文字</h2>
+        <div class="kaomoji">
+            <div onclick="copyText(this)">( ˘▽˘)っ♨</div>
+            <div onclick="copyText(this)">(๑´ڡ`๑)</div>
+            <div onclick="copyText(this)">(*´﹃｀*)</div>
+            <div onclick="copyText(this)">（＾ｕ＾）</div>
+            <div onclick="copyText(this)">(*￣▽￣)旦</div>
+            <div onclick="copyText(this)">(´～｀)</div>
+            <div onclick="copyText(this)">(*´з`)</div>
+            <div onclick="copyText(this)」(*´ڡ`●)</div>
+            <div onclick="copyText(this)">(｀～´)</div>
+            <div onclick="copyText(this)">（＾ｑ＾）</div>
+        </div>
+    </section>
+
 </div>
 
 <footer>
@@ -142,6 +281,12 @@
         });
     }
 </script>
-
+    
+<script
+  src="https://beamanalytics.b-cdn.net/beam.min.js"
+  data-token="0ea1702c-54c7-41ea-8870-0bd208b7dd9c"
+  async
+>
+</script>
 </body>
 </html>
